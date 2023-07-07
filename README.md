@@ -10,16 +10,17 @@
     sudo ip link set up vcan1
 
 ## To run the files
-Terminal 1
-1. Attack-free scenario
-    python3 "Code_Free flow.py"
-2. Attack scenario
+Terminal 1  
+Attack-free scenario  
+    python3 "Code_Free flow.py"  
+Attack scenario  
     python3 Code_MitM.py
-Terminal 2 (For the controller)
-    ./controls vcan0
-Terminal 3 (For the simulator)
-    ./icsim vcan1
-Terminal 4 (To view the packets on the sending side)
-    candump vcan0
-Terminal 5 (To view the packets on the receiving side)
-    candump vcan1 -a
+Terminal 2 (For the controller)  
+    ./controls vcan0  
+Terminal 3 (For the simulator)  
+    ./icsim vcan1  
+Terminal 4 (To view the packets on the sending side)  
+    candump vcan0  
+Terminal 5 (To view the packets on the receiving side)  
+    candump vcan1 -a  
+
