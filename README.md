@@ -1,7 +1,7 @@
 # ICVS Project
 ## Demonstrating the vulnerability in the CAN bus by intercepting packets from the incoming channel and forwarding modified data to the receiving channel.
 
-### The simulation is performed using the virtual instrument cluster simulator ICSim.
+### The simulation is performed using the virtual instrument cluster simulator, __ICSim__.
 ### To set up 2 channels
     sudo ip link add dev vcan0 type vcan
     sudo ip link set up vcan0
